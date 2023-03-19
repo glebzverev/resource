@@ -1,0 +1,32 @@
+{
+    "Priorities":
+    {
+        "Search": 4,
+        "Detection": 5,
+        "Track": 6
+    },
+    "Consts for observ":
+    {
+    	"tau": 0.075,
+    	"delta_t": 20,
+    	"n_dir": 80
+    },
+    "Consts for detection":
+    {
+    	"potok": 200
+    },
+    "Consts for Tracker":
+    {
+        "p_sopr": 80,
+        "delta t": 2,
+        "tau1": 5e-3,
+        "tau2": 78e-3
+    },
+    "Consts for VOKO":
+    {
+        "startTime": 1500,
+        "stopTime": 2000,
+        "delta_t": 1.0,
+        "tau": 316e-3
+    }
+}
