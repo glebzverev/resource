@@ -6,8 +6,9 @@ import pandas as pd
 import random
 import matplotlib
 import matplotlib.pyplot as plt
+import json
 
-from components import *
+from components import Monitoring, Detection, Tracker, VOKO
 
 deltaTime = 1                   # такт работы модели (секунды)
 
@@ -127,3 +128,6 @@ ax.legend(['количество объектов в секторе действ
            'обнаруженных'], loc = 2)
 plt.show()
 
+
+
+[resourseObservOut[j], resourseTrackerOut[j], resourseVokoOut[j], resoursePkOut[j]]
