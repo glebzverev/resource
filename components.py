@@ -96,7 +96,8 @@ class Tracker:
 
 
     def add_object(self, time):
-        """ Добавить новый объект
+        """
+        Добавить новый объект
         """
         self.lastNumberObject += 1
         trObject = TrackingObject(time,
